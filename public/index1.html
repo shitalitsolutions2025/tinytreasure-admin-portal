@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#CFA1E5" />
+    <meta
+      name="description"
+      content="TinyTreasure is a baby marketplace app to buy, sell, or donate baby products."
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>TinyTreasure - Baby Product Marketplace</title>
+
+    <!-- ✅ CSS Styles -->
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #fdf8ff;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      header {
+        background-color: #cfa1e5;
+        color: #fff;
+        padding: 2rem;
+        text-align: center;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        font-weight: bold;
+      }
+
+      header p {
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+        font-weight: 300;
+      }
+
+      main {
+        padding: 2rem;
+        max-width: 800px;
+        margin: auto;
+      }
+
+      section {
+        margin-bottom: 2.5rem;
+      }
+
+      h2 {
+        color: #8e44ad;
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1.05rem;
+      }
+
+      ul {
+        padding-left: 1.2rem;
+      }
+
+      ul li {
+        margin: 0.5rem 0;
+      }
+
+      a {
+        color: #8e44ad;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .screenshots img {
+        max-width: 100%;
+        height: auto;
+        margin: 0.5rem 0;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .button {
+        display: inline-block;
+        margin: 0.5rem;
+        padding: 0.7rem 1.2rem;
+        background-color: #cfa1e5;
+        color: #fff;
+        border-radius: 8px;
+        font-weight: 500;
+        transition: background 0.3s ease;
+      }
+
+      .button:hover {
+        background-color: #b07fd1;
+      }
+
+      footer {
+        background-color: #f1e6f8;
+        color: #555;
+        text-align: center;
+        padding: 1rem;
+        font-size: 0.9rem;
+        border-top: 1px solid #e0cce9;
+      }
+
+      @media (max-width: 600px) {
+        header h1 {
+          font-size: 2rem;
+        }
+
+        .button {
+          width: 100%;
+          text-align: center;
+          padding: 1rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>TinyTreasure</h1>
+      <p>Buy, Sell, Donate Baby Products</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>About the App</h2>
+        <p>
+          TinyTreasure is a baby marketplace app to buy, sell, or donate secondhand baby items — toys, clothes, cradles, strollers and more. Save money, reduce waste, and help new parents!
+        </p>
+      </section>
+
+      <section class="screenshots">
+        <h2>App Preview</h2>
+        <img src="../src/Images/ProductList.png" alt="App Screenshot 1" />
+        <img src="../src/Images/SellProduct.png" alt="App Screenshot 2" />
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>Email: contact@tinytreasure.app</p>
+      </section>
+
+      <section>
+        <h2>Policy Links</h2>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms & Conditions</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Coming Soon</h2>
+        <a href="#" class="button">Play Store</a>
+        <a href="#" class="button">App Store</a>
+      </section>
+    </main>
+
+    <footer>
+      &copy; 2025 TinyTreasure. All rights reserved.
+    </footer>
+    <div id="root"></div>
+  </body>
+</html>
